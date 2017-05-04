@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="TestCases.LeadModule">
+      <methods>
+       <include name="NavigatetoLead"></include>>
+      <include name="createApplicantOnNewStage"/>
+      <include name ="moveLeadToDocCollected"/>
+      <include name ="logOutCSE"/>
+      <inclue  name ="loginwithbranch"/> 
+       </methods>
+      </class>
+      <class name="TestCases.LoginModule"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

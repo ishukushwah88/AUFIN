@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestCases.LeadModule">
+        <methods>
+          <include name="createApplicantLeadOnNewStage"/>
+          <include name="loginwithbranch"/>
+          <include name="NavigatetoLead"/>
+          <include name="logOutwithCSE"/>
+          <include name="launchBrowser"/>
+          <include name="moveLeadToDocCollected"/>
+        </methods>
+      </class> <!-- TestCases.LeadModule -->
+      <class name="TestCases.LoginModule">
+        <methods>
+          <include name="validLogin"/>
+        </methods>
+      </class> <!-- TestCases.LoginModule -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

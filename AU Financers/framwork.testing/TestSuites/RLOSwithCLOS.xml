@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity">
+<test name="RLOS LeadHandoff with CLOS">
+<classes>
+<class name="TestCases.IndividualLead">
+<methods>
+<include name="NavigatetoLead"></include>
+<include name="createApplicantLeadOnNewStage"></include>
+<include name="moveLeadToDocCollected"></include>
+<include name ="FillCOApplicantLayout"></include>
+<include name="logOutwithCSE"></include>
+<include name="loginwithbranch"></include>
+<include name="takeactionByBM"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

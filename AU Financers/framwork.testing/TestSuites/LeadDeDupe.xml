@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Testing">
+<test name="Lead to Lead deDupe">
+<classes>
+<class name="TestCases.IndividualLead">
+<methods>
+<include name="NavigatetoLead"></include>
+<include name="createApplicantLeadOnNewStage"></include>
+<include name="LeadtoLeadDedupe"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity]">
+  <test name="RLOS LeadHandoff with CLOS(failed)">
+    <classes>
+      <class name="TestCases.IndividualLead">
+        <methods>
+          <include name="logOutwithCSE"/>
+          <include name="launchBrowser"/>
+          <include name="moveLeadToDocCollected"/>
+          <include name="FillCOApplicantLayout"/>
+          <include name="loginwithbranch"/>
+          <include name="NavigatetoLead"/>
+        </methods>
+      </class> <!-- TestCases.IndividualLead -->
+    </classes>
+  </test> <!-- RLOS LeadHandoff with CLOS(failed) -->
+</suite> <!-- Failed suite [Sanity] -->

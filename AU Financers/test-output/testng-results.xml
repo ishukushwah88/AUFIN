@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="11" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity" duration-ms="84731" started-at="2017-05-02T12:18:49Z" finished-at="2017-05-02T12:20:14Z">
+    <groups>
+    </groups>
+    <test name="RLOS LeadHandoff with CLOS" duration-ms="84731" started-at="2017-05-02T12:18:49Z" finished-at="2017-05-02T12:20:14Z">
+      <class name="TestCases.IndividualLead">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestCases.IndividualLead@4678c730]" name="launchBrowser" is-config="true" duration-ms="8227" started-at="2017-05-02T17:48:41Z" finished-at="2017-05-02T17:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="NavigatetoLead()[pri:0, instance:TestCases.IndividualLead@4678c730]" name="NavigatetoLead" duration-ms="6594" started-at="2017-05-02T17:48:49Z" finished-at="2017-05-02T17:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatetoLead -->
+        <test-method status="PASS" signature="createApplicantLeadOnNewStage()[pri:0, instance:TestCases.IndividualLead@4678c730]" name="createApplicantLeadOnNewStage" duration-ms="17361" started-at="2017-05-02T17:48:56Z" depends-on-methods="TestCases.IndividualLead.NavigatetoLead" finished-at="2017-05-02T17:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createApplicantLeadOnNewStage -->
+        <test-method status="PASS" signature="moveLeadToDocCollected()[pri:0, instance:TestCases.IndividualLead@4678c730]" name="moveLeadToDocCollected" duration-ms="41947" started-at="2017-05-02T17:49:13Z" depends-on-methods="TestCases.IndividualLead.NavigatetoLead" finished-at="2017-05-02T17:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveLeadToDocCollected -->
+        <test-method status="PASS" signature="FillCOApplicantLayout()[pri:0, instance:TestCases.IndividualLead@4678c730]" name="FillCOApplicantLayout" duration-ms="16689" started-at="2017-05-02T17:49:55Z" depends-on-methods="TestCases.IndividualLead.moveLeadToDocCollected" finished-at="2017-05-02T17:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillCOApplicantLayout -->
+        <test-method status="PASS" signature="logOutwithCSE()[pri:0, instance:TestCases.IndividualLead@4678c730]" name="logOutwithCSE" duration-ms="335" started-at="2017-05-02T17:50:12Z" depends-on-methods="TestCases.IndividualLead.moveLeadToDocCollected" finished-at="2017-05-02T17:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutwithCSE -->
+        <test-method status="PASS" signature="loginwithbranch()[pri:0, instance:TestCases.IndividualLead@4678c730]" name="loginwithbranch" duration-ms="1784" started-at="2017-05-02T17:50:12Z" depends-on-methods="TestCases.IndividualLead.logOutwithCSE" finished-at="2017-05-02T17:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithbranch -->
+      </class> <!-- TestCases.IndividualLead -->
+    </test> <!-- RLOS LeadHandoff with CLOS -->
+  </suite> <!-- Sanity -->
+</testng-results>

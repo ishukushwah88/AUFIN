@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Testing">
+<test name="RLOS Process For ETB">
+<classes>
+<class name="TestCases.IndividualLead">
+<methods>
+<include name="NavigatetoLead"></include>
+<include name="LeadtoCustomerDedupe"></include>
+<include name="moveLeadToDocCollected"></include>
+<include name="logOutwithCSE"></include>
+<include name="loginwithbranch"></include>
+<include name="takeactionByBM"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

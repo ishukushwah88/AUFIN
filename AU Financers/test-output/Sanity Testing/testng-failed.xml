@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity Testing]">
+  <test name="RLOS Process For ETB(failed)">
+    <classes>
+      <class name="TestCases.IndividualLead">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="moveLeadToDocCollected"/>
+          <include name="LeadtoCustomerDedupe"/>
+          <include name="NavigatetoLead"/>
+        </methods>
+      </class> <!-- TestCases.IndividualLead -->
+    </classes>
+  </test> <!-- RLOS Process For ETB(failed) -->
+</suite> <!-- Failed suite [Sanity Testing] -->
